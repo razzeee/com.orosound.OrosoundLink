@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.orosound.OrosoundLink.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <name>Orosound Link</name>
+  <developer_name>Orosound</developer_name>
+  <summary>Enhance your Tilde® experience with the Orosound Link application</summary>
+  <description>
+    <p>
+      Orosound Link is an application available on Windows, macOS and Linux for users of the Tilde® headsets. The app notifies you of available firmware updates and lets you perform them in one click, for a constant enhancement of audio experience.
+    </p>
+    <p>
+      Orosound Link offers a series of parameters directly adjustable in the application, so Tilde® can be personalized to everyone’s needs. The application also brings together all the useful information about the headset: serial number, production lot, Bluetooth name…
+    </p>
+    <p>
+      You need to easily manage Tilde® headsets for your company? It is possible to configure the Orosound Link application with a channel dedicated to your company, to activate a proxy, or to push firmware updates dedicated to your business.
+    </p>
+  </description>
+  <keywords>
+    <keyword>orosound</keyword>
+    <keyword>tilde</keyword>
+    <keyword>headset</keyword>
+  </keywords>
+  <content_rating type="oars-1.1"/>
+  <url type="homepage">https://www.orosound.com/orosound-link/</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/flathub/com.orosound.OrosoundLink/080c10e93fdee0faf27777d248bd24caa18dc0c8/screenshots/Betaflight1.png</image>
+      <caption>Welcome screen</caption>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="2.7.2" date="2025-02-21"></release>
+  </releases>
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+  </recommends>
+  <supports>
+    <control>touch</control>
+    <control>tablet</control>
+  </supports>
+</component>
