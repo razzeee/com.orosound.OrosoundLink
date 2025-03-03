@@ -13,7 +13,6 @@
     "--socket=x11",
     "--socket=pulseaudio",
     "--share=network",
-    "--system-talk-name=org.bluez",
     "--device=all"
   ],
   "modules": [
