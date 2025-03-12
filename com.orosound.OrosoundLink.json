@@ -1,9 +1,9 @@
 {
   "app-id": "com.orosound.OrosoundLink",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "23.08",
+  "runtime-version": "24.08",
   "base": "org.electronjs.Electron2.BaseApp",
-  "base-version": "23.08",
+  "base-version": "24.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "orosound-link",
   "separate-locales": false,
@@ -13,7 +13,8 @@
     "--socket=x11",
     "--socket=pulseaudio",
     "--share=network",
-    "--device=all"
+    "--device=all",
+    "--talk-name=org.kde.StatusNotifierWatcher"
   ],
   "modules": [
     "portaudio.json",
@@ -23,9 +24,7 @@
       "sources": [
         {
           "type": "file",
-          "only-arches": [
-            "x86_64"
-          ],
+          "only-arches": ["x86_64"],
           "url": "https://orosound-link.s3.eu-west-3.amazonaws.com/linux/OrosoundLink_v2.7.2.deb",
           "sha256": "79ae79990d95f7f691296ded5bc10658d7b91da5c5e991b263e15b225ef75d6e"
         },
